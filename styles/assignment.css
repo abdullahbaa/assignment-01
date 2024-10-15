@@ -125,3 +125,24 @@ border-radius: 5px;
     padding: 10px;
     margin-top: 20px;
 }
+/* inspiration section */
+.my-inspiration-section{
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.my-inspiration-section-h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 auto; 
+}
+.my-inspiration-section-p{
+    font-size: 15px;
+    opacity: 0.7;
+}
+.inspiration-video{
+    margin-top: 40px;
+    
+}
+
