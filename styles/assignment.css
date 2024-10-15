@@ -194,13 +194,17 @@ a:link {
 }
 
 .css {
+    border-radius: 16px;
     width: 264px;
+    background: rgba(255, 76, 30, 0.05);
 
 
 }
 
 .javascript {
+    border-radius: 16px;
     width: 264px;
+    background: rgba(255, 76, 30, 0.05);
 
 }
 
@@ -215,8 +219,47 @@ a:link {
     align-items: center;
 }
 /* 2nd last section of main */
-.next-target{
-    
+.target-fillup{
+   flex-direction: column;
+   justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.my-target{
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.reactjs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+.Nodejs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 10px;
+    margin-bottom: 10px;
+   
+}
+.MongoDB{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 /* last section of main */
@@ -246,4 +289,21 @@ a:link {
     display: flex;
     justify-content: center;
     gap: 16px;
+}
+/* footer section */
+
+.footer-container{
+    width: 900px;
+    border-radius: 16px;
+    background: rgba(17, 17, 18, 0.03);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 150px;
+    margin-top: 40px;
+
+}
+.icons{
+ flex-direction: row;
+ align-items:flex-end;
 }
